@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Making of header */
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    }
+.left-side{
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin: 10px;
+}
+
+a {text-decoration: none;
+    color: white;
+    }
