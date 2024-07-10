@@ -2,9 +2,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
-
 /* Making of header */
 .header{
     display: flex;
@@ -12,9 +9,11 @@ body{
     justify-content: space-around;
     color: white;
     align-items: center;
+    padding: 40px;
     }
 .left-side{
-    font-weight: bolder;
+    font-weight: 24px;
+    color: #f9faf8;
 }
 ul{
     display: flex;
@@ -26,3 +25,110 @@ ul{
 a {text-decoration: none;
     color: white;
     }
+/* Making of Main Text- Section-01 */
+
+.maintext{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    }
+
+.maintextleft{
+    
+    width: 400px;
+    padding: 100px;
+}
+    .heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.para{
+    color: #e5e7eb;
+    text-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.maintextright{
+    padding:100px;
+}
+.placeholder{
+    background-color: burlywood;
+    height: 300px;
+    width: 600px;
+    
+}
+button{
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
+/* Information section */
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.heading2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+.piccontainer{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+.text{
+    max-width: 150px;
+}
+
+
+/* Quote Section */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 200px;
+}
+.words{
+    font-size: 36px;
+    font-synthesis: none;
+    color: #1F2937;
+}
+.author{
+    align-items: flex-end;
+}
+/* Call to action */
+
+.cla{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 70px;
+}
+.action{
+    font-weight: bolder;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color:#f9faf8;
+}
